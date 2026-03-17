@@ -1,0 +1,21 @@
+1600 [restartedMain] INFO  c.g.b.BootCompannyApplication - Starting BootCompannyApplication using Java 25.0.2 with PID 5832 (C:\Users\Admin\Music\CapgeminiTraining_Assignments-\spring-boot\target\classes started by Admin in C:\Users\Admin\Music\CapgeminiTraining_Assignments-\spring-boot)
+1604 [restartedMain] DEBUG c.g.b.BootCompannyApplication - Running with Spring Boot v4.0.3, Spring v7.0.5
+1605 [restartedMain] INFO  c.g.b.BootCompannyApplication - No active profile set, falling back to 1 default profile: "default"
+8044 [restartedMain] INFO  c.g.b.BootCompannyApplication - Started BootCompannyApplication in 7.154 seconds (process running for 8.957)
+8082 [restartedMain] INFO  c.g.b.BootCompannyApplication - Starting BootCompannyApplication using Java 25.0.2 with PID 5832 (C:\Users\Admin\Music\CapgeminiTraining_Assignments-\spring-boot\target\classes started by Admin in C:\Users\Admin\Music\CapgeminiTraining_Assignments-\spring-boot)
+8082 [restartedMain] DEBUG c.g.b.BootCompannyApplication - Running with Spring Boot v4.0.3, Spring v7.0.5
+8082 [restartedMain] INFO  c.g.b.BootCompannyApplication - No active profile set, falling back to 1 default profile: "default"
+1488 [restartedMain] INFO  c.g.b.BootCompannyApplication - Starting BootCompannyApplication using Java 25.0.2 with PID 8100 (C:\Users\Admin\Music\CapgeminiTraining_Assignments-\spring-boot\target\classes started by Admin in C:\Users\Admin\Music\CapgeminiTraining_Assignments-\spring-boot)
+1492 [restartedMain] DEBUG c.g.b.BootCompannyApplication - Running with Spring Boot v4.0.3, Spring v7.0.5
+1493 [restartedMain] INFO  c.g.b.BootCompannyApplication - No active profile set, falling back to 1 default profile: "default"
+7597 [restartedMain] INFO  c.g.b.BootCompannyApplication - Started BootCompannyApplication in 6.792 seconds (process running for 8.488)
+7634 [restartedMain] INFO  c.g.b.BootCompannyApplication - Starting BootCompannyApplication using Java 25.0.2 with PID 8100 (C:\Users\Admin\Music\CapgeminiTraining_Assignments-\spring-boot\target\classes started by Admin in C:\Users\Admin\Music\CapgeminiTraining_Assignments-\spring-boot)
+7634 [restartedMain] DEBUG c.g.b.BootCompannyApplication - Running with Spring Boot v4.0.3, Spring v7.0.5
+7634 [restartedMain] INFO  c.g.b.BootCompannyApplication - No active profile set, falling back to 1 default profile: "default"
+233435 [restartedMain] INFO  c.g.b.BootCompannyApplication - Starting BootCompannyApplication using Java 25.0.2 with PID 8100 (C:\Users\Admin\Music\CapgeminiTraining_Assignments-\spring-boot\target\classes started by Admin in C:\Users\Admin\Music\CapgeminiTraining_Assignments-\spring-boot)
+233436 [restartedMain] DEBUG c.g.b.BootCompannyApplication - Running with Spring Boot v4.0.3, Spring v7.0.5
+233436 [restartedMain] INFO  c.g.b.BootCompannyApplication - No active profile set, falling back to 1 default profile: "default"
+235797 [restartedMain] INFO  c.g.b.BootCompannyApplication - Started BootCompannyApplication in 2.45 seconds (process running for 236.688)
+235833 [restartedMain] INFO  c.g.b.BootCompannyApplication - Starting BootCompannyApplication using Java 25.0.2 with PID 8100 (C:\Users\Admin\Music\CapgeminiTraining_Assignments-\spring-boot\target\classes started by Admin in C:\Users\Admin\Music\CapgeminiTraining_Assignments-\spring-boot)
+235833 [restartedMain] DEBUG c.g.b.BootCompannyApplication - Running with Spring Boot v4.0.3, Spring v7.0.5
+235833 [restartedMain] INFO  c.g.b.BootCompannyApplication - No active profile set, falling back to 1 default profile: "default"

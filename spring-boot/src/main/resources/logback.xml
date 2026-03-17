@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+        <file>tests.log</file>
+        <append>true</append>
+        <encoder>
+            <pattern>%-4relative [%thread] %-5level %logger{35} - %msg%n</pattern>
+        </encoder>
+    </appender>
+    <appender name="ERRORFILE" class="ch.qos.logback.core.FileAppender">
+        <file>errors.log</file>
+        <append>true</append>
+        <encoder>
+            <pattern>%-4relative [%thread] %-5level %logger{35} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+
+    <logger name = "com.gal" level = "TRACE">
+        <appender-ref ref = "ERRORFILE"/>
+    </logger>
+    <!-- Set the logging level for Hibernate to WARN to reduce verbosity -->
+    <logger name="org.hibernate" level="INFO">
+     <appender-ref ref = "FILE"></appender-ref>
+       <appender-ref ref = "STDOUT"></appender-ref>
+    </logger>
+
+    <!-- Optional: set specific categories to DEBUG for detailed info -->
+    <logger name="org.springframework" level="INFO" />
+    <logger name="org.springframework.boot" level="INFO" /> <!-- Logs JDBC parameters -->
+<!--    <logger name="org.hibernate.jdbc" level="DEBUG" /> &lt;!&ndash; Logs connection activity &ndash;&gt;-->
+
+
+    <root level="DEBUG">
+        <appender-ref ref="STDOUT" />
+    </root>
+</configuration>
+
+
+
+
