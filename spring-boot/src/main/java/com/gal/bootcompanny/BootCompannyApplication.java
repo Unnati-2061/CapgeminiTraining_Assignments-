@@ -11,10 +11,11 @@ import org.springframework.context.ConfigurableApplicationContext;
 public class BootCompannyApplication {
 //    private static LoggerContext loggerFactory;
     public static final Logger log = LoggerFactory.getLogger(BootCompannyApplication.class);
+
     public static void main(String[] args) {
 
-        SpringApplication.run(BootCompannyApplication.class, args);
-        ConfigurableApplicationContext context  = SpringApplication.run(BootCompannyApplication.class);
+        ConfigurableApplicationContext context = SpringApplication.run(BootCompannyApplication.class, args);
+//        ConfigurableApplicationContext context  = SpringApplication.run(BootCompannyApplication.class);
 
         log.info("Application started successfully");
     }

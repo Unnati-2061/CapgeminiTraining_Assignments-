@@ -10,10 +10,10 @@ import jakarta.persistence.Table;
 public class Department {
     @Id
     @Column(name = "department_id")
-    int id;
+    private int id;
 
     @Column(name = "department_name")
-    String name;
+    private String name;
 
     public void setId(int id) {
         this.id = id;
@@ -27,6 +27,18 @@ public class Department {
         this.manager_id = manager_id;
     }
 
+    public int getIdd() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getManager_id() {
+        return manager_id;
+    }
+
     @Override
     public String toString() {
         return "Department{" +
@@ -36,18 +48,9 @@ public class Department {
                 '}';
     }
 
-    public int manager_id() {
-        return manager_id;
-    }
-
-    public String name() {
-        return name;
-    }
-
-    public int id() {
-        return id;
-    }
 
     @Column(name = "manager_id")
     int manager_id;
+
+
 }
