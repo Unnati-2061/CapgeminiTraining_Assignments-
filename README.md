@@ -2,6 +2,8 @@
 
 The codebase includes practice programs, small applications, and structured implementations designed to demonstrate core backend development principles and technologies used in Java-based enterprise applications.
 
+---
+
 ### Topics Covered (InProgress):
 - Java
 - Java Collection Framework
