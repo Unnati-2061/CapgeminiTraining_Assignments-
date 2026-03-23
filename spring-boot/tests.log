@@ -672,3 +672,133 @@
 16310 [http-nio-8081-exec-1] DEBUG org.hibernate.SQL - select d1_0.department_id,d1_0.manager_id,d1_0.department_name from department d1_0 where d1_0.department_id=?
 16312 [http-nio-8081-exec-1] DEBUG org.hibernate.SQL - select e1_0.employee_id,d1_0.department_id,d1_0.manager_id,d1_0.department_name,e1_0.email,e1_0.first_name,e1_0.hire_date,e1_0.job_title,e1_0.last_name,m1_0.employee_id,d2_0.department_id,d2_0.manager_id,d2_0.department_name,m1_0.email,m1_0.first_name,m1_0.hire_date,m1_0.job_title,m1_0.last_name,m1_0.manager_id,m1_0.phone_number,m1_0.salary,e1_0.phone_number,e1_0.salary from employee e1_0 left join department d1_0 on d1_0.department_id=e1_0.department_id left join employee m1_0 on m1_0.employee_id=e1_0.manager_id left join department d2_0 on d2_0.department_id=m1_0.department_id where e1_0.employee_id=?
 16319 [http-nio-8081-exec-1] DEBUG org.hibernate.SQL - select d1_0.department_id,d1_0.manager_id,d1_0.department_name from department d1_0 where d1_0.department_id=?
+8358 [restartedMain] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+8550 [restartedMain] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.4.Final
+9837 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/company_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: company_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+11424 [restartedMain] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+4976 [restartedMain] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+5084 [restartedMain] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.4.Final
+6310 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/company_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: company_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+7613 [restartedMain] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+4803 [restartedMain] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+4932 [restartedMain] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.4.Final
+6124 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/company_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: company_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+7410 [restartedMain] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+114062 [http-nio-8081-exec-5] DEBUG org.hibernate.SQL - insert into cab_allocation (cab_number,employee_id,travel_date) values (?,?,?)
+114160 [http-nio-8081-exec-5] WARN  org.hibernate.orm.jdbc.error - HHH000247: ErrorCode: 1146, SQLState: 42S02
+114160 [http-nio-8081-exec-5] WARN  org.hibernate.orm.jdbc.error - Table 'company_db.cab_allocation' doesn't exist
+209169 [http-nio-8081-exec-7] DEBUG org.hibernate.SQL - select ca1_0.id,ca1_0.cab_number,ca1_0.employee_id,ca1_0.travel_date from cab_allocation ca1_0 where ca1_0.travel_date=?
+209185 [http-nio-8081-exec-7] WARN  org.hibernate.orm.jdbc.error - HHH000247: ErrorCode: 1146, SQLState: 42S02
+209188 [http-nio-8081-exec-7] WARN  org.hibernate.orm.jdbc.error - Table 'company_db.cab_allocation' doesn't exist
+596198 [http-nio-8081-exec-2] DEBUG org.hibernate.SQL - insert into cab_allocation (cab_number,employee_id,travel_date) values (?,?,?)
+596201 [http-nio-8081-exec-2] WARN  org.hibernate.orm.jdbc.error - HHH000247: ErrorCode: 1146, SQLState: 42S02
+596202 [http-nio-8081-exec-2] WARN  org.hibernate.orm.jdbc.error - Table 'company_db.cab_allocation' doesn't exist
+4126 [restartedMain] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+4223 [restartedMain] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.4.Final
+5880 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/company_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: company_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+7424 [restartedMain] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+7562 [restartedMain] DEBUG org.hibernate.SQL - create table cab_allocation (id integer not null auto_increment, cab_number varchar(255), travel_date date, employee_id integer, primary key (id)) engine=InnoDB
+7724 [restartedMain] DEBUG org.hibernate.SQL - alter table department modify column department_name varchar(255)
+7932 [restartedMain] DEBUG org.hibernate.SQL - alter table employee modify column email varchar(255)
+8120 [restartedMain] DEBUG org.hibernate.SQL - alter table employee modify column first_name varchar(255)
+8403 [restartedMain] DEBUG org.hibernate.SQL - alter table employee modify column job_title varchar(255)
+8787 [restartedMain] DEBUG org.hibernate.SQL - alter table employee modify column last_name varchar(255)
+8954 [restartedMain] DEBUG org.hibernate.SQL - alter table employee modify column phone_number varchar(255)
+9118 [restartedMain] DEBUG org.hibernate.SQL - alter table cab_allocation add constraint FK7b4e6f1ajbav4d1j1atnfk7ai foreign key (employee_id) references employee (employee_id)
+17900 [http-nio-8081-exec-2] DEBUG org.hibernate.SQL - insert into cab_allocation (cab_number,employee_id,travel_date) values (?,?,?)
+3923 [restartedMain] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+4021 [restartedMain] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.4.Final
+5596 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/company_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: company_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+7101 [restartedMain] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+14412 [http-nio-8081-exec-1] DEBUG org.hibernate.SQL - select ca1_0.id,ca1_0.cab_number,e1_0.employee_id,d1_0.department_id,d1_0.manager_id,d1_0.department_name,e1_0.email,e1_0.first_name,e1_0.hire_date,e1_0.job_title,e1_0.last_name,m1_0.employee_id,m1_0.department_id,m1_0.email,m1_0.first_name,m1_0.hire_date,m1_0.job_title,m1_0.last_name,m1_0.manager_id,m1_0.phone_number,m1_0.salary,e1_0.phone_number,e1_0.salary,ca1_0.travel_date from cab_allocation ca1_0 left join employee e1_0 on e1_0.employee_id=ca1_0.employee_id left join department d1_0 on d1_0.department_id=e1_0.department_id left join employee m1_0 on m1_0.employee_id=e1_0.manager_id where ca1_0.id=?
+14464 [http-nio-8081-exec-1] DEBUG org.hibernate.SQL - select ca1_0.id,ca1_0.cab_number,e1_0.employee_id,d1_0.department_id,d1_0.manager_id,d1_0.department_name,e1_0.email,e1_0.first_name,e1_0.hire_date,e1_0.job_title,e1_0.last_name,m1_0.employee_id,m1_0.department_id,m1_0.email,m1_0.first_name,m1_0.hire_date,m1_0.job_title,m1_0.last_name,m1_0.manager_id,m1_0.phone_number,m1_0.salary,e1_0.phone_number,e1_0.salary,ca1_0.travel_date from cab_allocation ca1_0 left join employee e1_0 on e1_0.employee_id=ca1_0.employee_id left join department d1_0 on d1_0.department_id=e1_0.department_id left join employee m1_0 on m1_0.employee_id=e1_0.manager_id where ca1_0.id=?
+3928 [restartedMain] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+4015 [restartedMain] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.4.Final
+5580 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/company_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: company_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+7309 [restartedMain] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+77095 [http-nio-8081-exec-1] DEBUG org.hibernate.SQL - insert into cab_allocation (cab_number,employee_id,travel_date) values (?,?,?)
+5848 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+6263 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+6319 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+12690 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+52885 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+52896 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+53008 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+55714 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+55723 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+55837 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+60480 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+60487 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+60714 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+283819 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+283826 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+284010 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+287576 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+287584 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+287867 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
