@@ -9,5 +9,4 @@ class IssueTrackerApplicationTests {
     @Test
     void contextLoads() {
     }
-
 }
