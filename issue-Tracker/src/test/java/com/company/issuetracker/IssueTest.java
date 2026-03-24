@@ -41,7 +41,7 @@ public class IssueTest {
 
         when(issueService.getUnresolvedIssues(1L))
                 .thenReturn(List.of(new Issue()));
-
+     //for the first test case and the one with the issues raised by employee that are still unresolved
         mockMvc.perform(get("/issues/employee/1/unresolved"))
                 .andExpect(status().isOk());
     }
@@ -51,14 +51,14 @@ public class IssueTest {
 
         when(issueService.getIssuesThisMonth())
                 .thenReturn(List.of(new Issue()));
-
+//and this test case is for the issues raised by any employee this month
         mockMvc.perform(get("/issues/this-month"))
                 .andExpect(status().isOk());
     }
 
     @Test
     void testGetEmployeeNamesThisMonthAPI() throws Exception {
-
+//and now this is the test case for the accessing employee name who raised any issues this month
         when(issueService.getEmployeeNamesThisMonth())
                 .thenReturn(List.of("Unnati"));
 
